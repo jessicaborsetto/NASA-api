@@ -1,6 +1,6 @@
 import './App.css'
 import { ThemeProvider } from "@material-tailwind/react";
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import More from './pages/More';
 import Home from './pages/Home';
 import Info from './pages/Info';
@@ -8,19 +8,20 @@ import MyFooter from './components/MyFooter';
 import Error from './pages/Error';
 
 
+
 function App() {
 
   return (
     <>
       <ThemeProvider>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
            <Route path="/info/:infoId" element={<Info />} />
            <Route path="/more" element={<More />} />
            <Route path="/" element={<Home />} />
            <Route path="/error" element={<Error />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
       
       </ThemeProvider>
       <div className='mt-20'>
