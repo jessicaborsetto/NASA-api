@@ -1,4 +1,5 @@
 import { Input } from "@material-tailwind/react";
+// import { Link } from "react-router-dom";
 
 import React from "react";
 function MyFooter() {
@@ -10,8 +11,8 @@ function MyFooter() {
                     <div>
                         <h3 className="font-semibold">SUPPORT</h3>
                         <div className="flex flex-col">
-                            <a href="/error" className="hover:hue-rotate-90">FAQs</a>
-                            <a href="/error" className="hover:hue-rotate-90">Help</a>
+                            <a href="#/error" className="hover:hue-rotate-90">FAQs</a>
+                            <a href="#/error" className="hover:hue-rotate-90">Help</a>
                         </div>
                     </div>
                     <div>
@@ -19,19 +20,20 @@ function MyFooter() {
                         <h3 className="font-semibold">ABOUT US</h3>
                         <div className="flex flex-col">
                      
-                            <a href="/error">Terms of Use</a>
-                            <a href="/error" className="hover:hue-rotate-90">Privacy</a>
-                            <a href="/error" className="hover:hue-rotate-90">Careers</a>
-                            <a href="/error" className="hover:hue-rotate-90">About</a>
-                            <a href="/error" className="hover:hue-rotate-90">Privacy</a>
-                            <a href="/error" className="hover:hue-rotate-90">License</a>
+                            <a href="#/error">Terms of Use</a>
+                            <a href="#/error" className="hover:hue-rotate-90">Privacy</a>
+                            <a href="#/error" className="hover:hue-rotate-90">Careers</a>
+                            <a href="#/error" className="hover:hue-rotate-90">About</a>
+                            <a href="#/error" className="hover:hue-rotate-90">Privacy</a>
+                            <a href="#/error" className="hover:hue-rotate-90">License</a>
+                            {/* <Link  to="#/error" > CIAO</Link> */}
                         </div>
                     </div>
                     <div>
 
                         <h3 className="font-semibold">CONTACT</h3>
                         <div>
-                            <a href="/error" className="hover:hue-rotate-90">Contact Us</a>
+                            <a href="#/error" className="hover:hue-rotate-90">Contact Us</a>
                         </div>
                     </div>
                     <div>
