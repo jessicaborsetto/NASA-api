@@ -47,7 +47,7 @@ function MyCard() {
             <CardBody>
                 <div
                     color="white"
-                    className="my-6 font-medium container mx-auto"
+                    className="my-6 p-5 font-medium container mx-auto"
                 >
                     {data && <h4 className='text-xl font-bold text-gray-900'>{data.title}</h4>}
                     <hr className='my-3' />
